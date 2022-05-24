@@ -1,0 +1,145 @@
+/*GENERAL*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+}
+
+.container{
+    max-width: 320px;
+    margin: 50px auto;
+    background-color:#1A1B21;
+    border-radius: 10px;
+}
+
+/*HEADER*/
+
+.header-img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.header-info-container{
+    padding: 20px 35px 33px;
+    text-align: center;
+}
+
+.header-title-container{
+    margin-bottom: 15px;
+}
+
+.header-info-container h1,
+.header-info-container h2,
+.header-info-container h3{
+    margin: 0
+}
+
+.header-info-container h1{
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 1.563rem;
+    color: #FFFFFF;
+}
+
+.header-info-container h2{
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #F3BF99;
+}
+
+.header-info-container h3{
+    font-weight: 400;
+    font-size: 0.64rem;
+    color: #F5F5F5;
+}
+
+.header-button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button-container a{
+    width: 115px;
+    padding: 9px 0;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.header-button-container-email{
+    background-color: #FFFFFF;
+    color: #374151;
+}
+
+.fa-envelope{
+    margin-right: 8px;
+}
+
+.header-button-container-linkedin{
+    background-color: #5093E2;
+    color: #fff;
+}
+
+.fa-linkedin{
+    margin-right: 9px;
+}
+
+/*MAIN*/
+
+.section-main{
+    padding: 0 35px 40px;
+}
+
+.section-main-about{
+    margin-bottom: 20px;
+}
+
+.section-main-about-title,
+.section-main-interests-title,
+.section-main-about-details,
+.section-main-interests-details{
+    margin: 0;
+}
+
+.section-main-about-title,
+.section-main-interests-title{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #F5F5F5;
+}
+
+.section-main-about-details,
+.section-main-interests-details{
+    font-weight: 400;
+    font-size: 0.64rem;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+
+/*FOOTER*/
+
+.section-footer{
+    padding: 20px 72px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+}
+
+.section-footer .fa-brands{
+    font-size: 1.563rem;
+    color: #918E9B;
+}
+
+
+
+
